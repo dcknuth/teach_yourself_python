@@ -8,8 +8,8 @@ These lessons were developed with the [Anaconda installation](https://www.anacon
 * [Introduction](lesson00.md) - First day slides, turned into markdown
 * [Python Lesson 1](lesson01.md) - Getting Started
 * [Python Lesson 2](lesson02.md) - More Variable Types and Flow Control
-* Python Lesson 3 - Functions and Variable Scope
-* Python Lesson 4 – Lists, Tuples, Mutability and Object IDs
+* [Python Lesson 3](lesson03.md) - Functions and Variable Scope
+* [Python Lesson 4](lesson04.md) – Lists, Tuples, Mutability and Object IDs
 * Python Lesson 5 – Dictionaries
 * Python Lesson 6 – Strings
 * Python Lesson 7 – Pattern Matching and Regular Expressions
