@@ -24,7 +24,7 @@ not False     # Reverse the bool value
 # You can also string these together
 (2 > 1) and (5 == 5)
 ```
-Python groups code sections with indentation. When we have indentations, you will need to press F9 until the indentation ends or select the whole section and press F9. For an if – else pair, you will need to select both and press F9 to get the correct behavior. Remember to show the Variable Explorer tab, so you can see your variables and to select the whole indented part and the line after for those sections.
+Python groups code sections with indentation. When we have indentations, you will need to select the whole section and press F9. For an if – else pair, you will need to select both and press F9 to get the correct behavior. Remember to show the Variable Explorer tab, so you can see your variables.
 ```
 # Now we can use boolean values to control our code
 # Python uses indentation level to create a 'block' of code

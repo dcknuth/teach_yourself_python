@@ -1,5 +1,5 @@
 # Python Lesson 8
-This will be a short lesson on input validation. When we ask a user for input or read from a file, we might need to see if the input we are getting is in the right format. One simple way to do this is with a “try” block and/or if statements
+This will be a short lesson on input validation. When we ask a user for input or read from a file, we might need to see if the input we are getting is in the right format. One simple way to do this is with a "try" block and/or if statements
 ```
 # Ask for input, check and loop if the input is not valid
 while True:

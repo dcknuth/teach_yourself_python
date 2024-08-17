@@ -236,7 +236,7 @@ print(cheeze) # only cheeze changes
 
 # Questions from bottom of https://automatetheboringstuff.com/2e/chapter4/
 ```
-You can optionally do some of the questions from the link at the end. Below is the Game of Life demo that uses most of what has been learned so far and is kinda neat. You can put it in a new file, run it with F5 and then stop it with <Ctrl> + c in the console window.
+You can optionally do some of the questions from the link at the end. Below is the Game of Life demo that uses most of what has been learned so far and is kinda neat. You can put it in a new file, run it with F5 and then stop it with \<Ctrl\> + c in the console window.
 ```
 # Conway's Game of Life
 import random, time, copy

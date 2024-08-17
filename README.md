@@ -16,8 +16,8 @@ These lessons were developed with the [Anaconda installation](https://www.anacon
 * [Python Lesson 8](lesson08.md) – Input Validation
 * [Python Lesson 9](lesson09.md) – Reading and Writing Files
 * [Python Lesson 10](lesson10.md) – Organizing Files
-* Python Lesson 11 P1 – Debugging part 1
-* Python Lesson 11 P2 – Debugging part 2
+* [Python Lesson 11 P1](lesson11p1.md) – Debugging part 1
+* [Python Lesson 11 P2](lesson11p2.md) – Debugging part 2
 * Python Lesson 12 – CSV and JSON Files
 * Python Lesson 13 – Time and dates, Scheduling tasks and Launching Programs
 * Python Lesson 14 P1 – Image Manipulation

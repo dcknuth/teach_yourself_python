@@ -150,4 +150,4 @@ def whoWon(g):
 
 print(whoWon(game))
 ```
-[Python Lesson 6](lesson6.md)
+[Python Lesson 6](lesson06.md)

@@ -5,7 +5,7 @@ We can use variables while a program is running, but to keep something after we 
 
 C:\Users\dave\Documents\test.txt
 
-Python will usually handle doing the right thing no matter which slash you use, so I will go with '/' since we will not have to deal with the escape use of '\'. We will also assume everything we will be doing is for text files and not cover binary files here. Last thing to mention here is about the "working directory". If you don’t use a full path and only include a file name, it will read or write to the directory you run the Python program from or, if you are using an IDE, from whatever that program sets the working directory to be.
+Python will usually handle doing the right thing no matter which slash you use, so I will go with '/' since we will not have to deal with the escape use of '\\'. We will also assume everything we will be doing is for text files and not cover binary files here. Last thing to mention here is about the "working directory". If you don’t use a full path and only include a file name, it will read or write to the directory you run the Python program from or, if you are using an IDE, from whatever that program sets the working directory to be.
 ```
 # OK, let's write to a file
 # Set our file path
