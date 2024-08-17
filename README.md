@@ -13,9 +13,9 @@ These lessons were developed with the [Anaconda installation](https://www.anacon
 * [Python Lesson 5](lesson05.md) – Dictionaries
 * [Python Lesson 6](lesson06.md) – Strings
 * [Python Lesson 7](lesson07.md) – Pattern Matching and Regular Expressions
-* Python Lesson 8 – Input Validation
-* Python Lesson 9 – Reading and Writing Files
-* Python Lesson 10 – Organizing Files
+* [Python Lesson 8](lesson08.md) – Input Validation
+* [Python Lesson 9](lesson09.md) – Reading and Writing Files
+* [Python Lesson 10](lesson10.md) – Organizing Files
 * Python Lesson 11 P1 – Debugging part 1
 * Python Lesson 11 P2 – Debugging part 2
 * Python Lesson 12 – CSV and JSON Files
