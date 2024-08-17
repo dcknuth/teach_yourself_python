@@ -10,9 +10,9 @@ These lessons were developed with the [Anaconda installation](https://www.anacon
 * [Python Lesson 2](lesson02.md) - More Variable Types and Flow Control
 * [Python Lesson 3](lesson03.md) - Functions and Variable Scope
 * [Python Lesson 4](lesson04.md) – Lists, Tuples, Mutability and Object IDs
-* Python Lesson 5 – Dictionaries
-* Python Lesson 6 – Strings
-* Python Lesson 7 – Pattern Matching and Regular Expressions
+* [Python Lesson 5](lesson05.md) – Dictionaries
+* [Python Lesson 6](lesson06.md) – Strings
+* [Python Lesson 7](lesson07.md) – Pattern Matching and Regular Expressions
 * Python Lesson 8 – Input Validation
 * Python Lesson 9 – Reading and Writing Files
 * Python Lesson 10 – Organizing Files
