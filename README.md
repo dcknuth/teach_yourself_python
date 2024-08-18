@@ -22,4 +22,4 @@ These lessons were developed with the [Anaconda installation](https://www.anacon
 * [Python Lesson 13](lesson13.md) – Time and dates, Scheduling tasks and Launching Programs
 * [Python Lesson 14 Part 1](lesson14p1.md) – Image Manipulation
 * [Python Lesson 14 Part 2](lesson14p2.md) – Image Manipulation in Parallel
-* Python Lesson 15 – Web Scraping
+* [Python Lesson 15](lesson15.md) – Web Scraping

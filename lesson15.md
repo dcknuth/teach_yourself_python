@@ -121,7 +121,7 @@ element.click()
 # Close the browser after we see it worked
 browser.quit()
 ```
-Now let’s log into something. We are going to try loggin in to WordPress, where this content was created
+Now let’s log into something. We are going to try logging in to WordPress, where this content was originally created
 ```
 # What if we need to log into the website we are targeting
 from getpass import getpass

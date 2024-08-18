@@ -71,6 +71,7 @@ We can run this new function like this
 ```
 # Next line only needed if current python file is in another dir
 os.chdir("C:/Users/dave/Documents/GitHub/teach_yourself_python")
+from to_1080_hc import To1080HC
 os.chdir(imgDir)
 To1080HC(imgIn, targetDir)
 ```
@@ -189,4 +190,4 @@ print("Time to do", len(imagelist), "conversions was", t1 - t0, "seconds")
 ```
 This ran in about 3 seconds, so faster, but not the 16x for the number of cores. Windows does have some overhead for each process start, then an SSD actually likes to have a queue depth of requests from 8-12. You will probably have to experiment quite a bit before you find the best mix of things to run at once for your system. Or just wait a few seconds. Also, ImageMagick has a 'morgrify' command that will take the same action on a set of images and that could also be tried.
 
-[Python Lesson 15](lesson15.py) - Web Scraping
+[Python Lesson 15](lesson15.md) - Web Scraping
