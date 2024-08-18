@@ -45,3 +45,44 @@ chapterName = elems[0].getText()[2:]
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 browser = webdriver.Chrome()
+# Go to a page
+browser.get('https://inventwithpython.com')
+# Click on the page
+linkElem = browser.find_element('link text', 'Read Online for Free')
+# Or more readable
+# linkElem = browser.find_element(By.LINK_TEXT, 'Read Online for Free')
+linkElem.click()
+
+# Close the web browser and do it again, but make sure the page is
+#  loaded with a wait
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+browser = webdriver.Chrome()
+browser.get('https://inventwithpython.com')
+# Wait for an element to be visible on the page
+element = WebDriverWait(browser, 10).until(
+    EC.visibility_of_element_located((By.LINK_TEXT,
+                                      'Read Online for Free')))
+element.click()
+# Close the browser after we see it worked
+browser.quit()
+
+# What if we need to log into the website we are targeting
+from getpass import getpass
+password = getpass("Enter your password: ")
+# Yes, this fails to hide in IPython, but would work if in a script
+#  run from the command line. It would also show in our Variable
+#  Explorer, so test with a non-real password
+# Test pw is NotTheActualPassword
+username = 'test_wp'
+browser = webdriver.Chrome()
+wait = WebDriverWait(browser, 30)
+browser.get('https://davidknuth.com/blog/wp-login.php')
+wait.until(EC.element_to_be_clickable((By.ID, 'user_login')))\
+    .send_keys(username)
+wait.until(EC.element_to_be_clickable((By.ID, 'user_pass')))\
+    .send_keys(password)
+wait.until(EC.element_to_be_clickable((By.ID, 'wp-submit')))\
+    .click()
+print("Logged in")
+browser.quit()
