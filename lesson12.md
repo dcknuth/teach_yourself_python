@@ -91,7 +91,7 @@ someJson == outJson
 #  dict, list, int, float, str, bool, or None (null in JSON)
 # These can be nested to form deep and complex data exchanges
 ```
-We could also read or write to a file as JSON is just text. Let’s do an example of the type of thing most folks would do with JSON, get some info from a web API. To do this we will need an account with the web site we are going to fetch data from. You can do that for OpenWeatherMap by going here. We will be limited to only a few API calls a day, but that's OK. Let's try the example that was emailed with the APPID, getting the current weather in London.
+We could also read or write to a file as JSON is just text. Let’s do an example of the type of thing most folks would do with JSON, get some info from a web API. To do this we will need an account with the web site we are going to fetch data from. You can do that for OpenWeatherMap by going [here](https://home.openweathermap.org/users/sign_up). We will be limited to only a few API calls a day, but that's OK. Let's try the example that was emailed with the APPID, getting the current weather in London.
 ```
 # Now try exchanging JSON data with a web site
 # This will use OpenWeatherMap

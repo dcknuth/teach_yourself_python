@@ -99,7 +99,7 @@ with shelve.open('mydata') as shelfFile:
 # Now check if we have our cats back
 print(cats)
 ```
-This will be helpful to save variables that are not easy to just print as text strings, but what if we want to be able to look inside the files easily. Since shelve will store the data as a binary file, let’s look at another option we have to save our variables that is easier to inspect, as a python script.
+This will be helpful to save variables that are not easy to just print as text strings, but what if we want to be able to look inside the files easily. Since shelve will store the data as a binary file, let’s look at another option we have to save our variables that is easier to inspect, as a Python script.
 ```
 # Now let's try storing some data as a Python file
 import pprint
