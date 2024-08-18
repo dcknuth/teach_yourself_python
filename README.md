@@ -18,8 +18,8 @@ These lessons were developed with the [Anaconda installation](https://www.anacon
 * [Python Lesson 10](lesson10.md) – Organizing Files
 * [Python Lesson 11 P1](lesson11p1.md) – Debugging part 1
 * [Python Lesson 11 P2](lesson11p2.md) – Debugging part 2
-* Python Lesson 12 – CSV and JSON Files
-* Python Lesson 13 – Time and dates, Scheduling tasks and Launching Programs
+* [Python Lesson 12](lesson12.md) – CSV and JSON Files
+* [Python Lesson 13](lesson13.md) – Time and dates, Scheduling tasks and Launching Programs
 * Python Lesson 14 P1 – Image Manipulation
 * Python Lesson 14 P2 – Image Manipulation in Parallel
 * Python Lesson 15 – Web Scraping
